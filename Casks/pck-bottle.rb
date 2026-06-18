@@ -8,8 +8,6 @@ cask "pck-bottle" do
   desc "Editor for Godot .pck game packages"
   homepage "https://github.com/vaflz-1/PCK-Bottle"
 
-  depends_on macos: :high_sierra
-
   app "PCK Bottle.app"
 
   caveats <<~EOS
