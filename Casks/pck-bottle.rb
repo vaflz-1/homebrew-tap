@@ -1,6 +1,6 @@
 cask "pck-bottle" do
-  version "1.0.1"
-  sha256 "f3ee4da6591aa97e7e97e3cbfd0623d01b461ff7c72cbc17708f8dfdb6d994e6"
+  version "1.0.2"
+  sha256 "408201b5ae88b471ae62731c3b890d70c89ae9273729b5f1b52e1cf4d0c0b0c8"
 
   url "https://github.com/vaflz-1/PCK-Bottle/releases/download/v#{version}/PCK.Bottle.#{version}.dmg",
       verified: "github.com/vaflz-1/PCK-Bottle/"
