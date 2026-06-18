@@ -11,10 +11,9 @@ cask "pck-bottle" do
   app "PCK Bottle.app"
 
   caveats <<~EOS
-    PCK Bottle is signed ad-hoc (Apple has not notarized it). If macOS blocks it,
-    either install without quarantine:
-      brew install --cask --no-quarantine pck-bottle
-    or clear the flag once after installing:
+    PCK Bottle is signed ad-hoc (Apple has not notarized it). If macOS blocks it
+    on first launch ("damaged" / "unidentified developer"), clear the quarantine
+    flag once:
       xattr -dr com.apple.quarantine "/Applications/PCK Bottle.app"
   EOS
 end
